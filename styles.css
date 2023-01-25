@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.corfundo{
+    background-image: linear-gradient(45deg, black, crimson);
+    height: 100vh; /*aqui ele ocupa a cor em toda pagina*/
+    color: white; /*aqui é a cor do título*/
+    font-family: Arial, Helvetica, sans-serif;/*fonte das letras e number*/
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;/*aqui ele ocupa espaço para a calculadora*/
+    background-color: rgba(0,0,0,0.7);/*cor fundo transparente da calculadora*/
+    top: 50%;/*aqui ele empurra para baixo em 50%*/
+    left: 50%;/*aqui coloca para esquerda em 50%*/
+    transform: translate(-50%,-50%);/*aqui ele centraliza*/
+    border-radius: 15px;/*aqui ele coloca bordas na calculadora*/
+    padding: 15px;/*aqui ele coloca espaço entre os elementos*/
+}
+
+.btn{
+    width: 50px;/*aqui é a largura dos botoes*/
+    height: 50px;/*aqui altura dos botoes*/
+    font-size: 25px;/*aqui tamanho dos botoes*/
+    cursor: pointer;/*aqui adicionamos a maozinha do mouse sobre os botoes*/
+    margin: 3px;/*aqui um espaço entre os botoes*/
+    background-color: rgb(31, 31, 31);/*cor dos botoes*/
+    color: #fff;
+}
+.btn:hover{ /*aqui aplicamos mudança cor ao passar o mouse sobre os botoes*/
+    background-color: rgb(221,210,0) ;
+}
+
+#alturabtn{
+    height: 106px;
+}
+#largurabtn{
+    width: 106px;
+}
+
+#resultado{
+    background-color: white;
+    width: 207px;/*aqui é a largura da tag <p>*/
+    height: 30px;/*aqui é a altura da tag <p>*/
+    margin: 5px;
+    font-size: 25px;/*aqui é o tamanho da fonte quando digitado*/
+    color: black;/*aqui é a cor dos números digitados*/
+    text-align: right;/*aqui está colocando os numeros a direita*/
+    padding: 5px;/*aqui é um espaço entre a tag <p> e os dados*/
+}
